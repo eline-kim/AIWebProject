@@ -25,7 +25,7 @@
                         <li class="nav-item"><a class="nav-link" href="#!">공지사항</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">입학</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">마이페이지(로그인시)</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">로그인</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.jsp">로그인</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,7 +36,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
                 <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
                 <div class="col-lg-5">
-                    <h1 class="font-weight-light"><- 이미지 슬라이드쇼 && 사이즈 키우고 대체 이미지 3-5장 추가</h1>
+                    <h1 class="font-weight-light"><- 학교 사진 이미지 슬라이드쇼 && 사이즈 키우고 대체 이미지 3-5장 추가</h1>
                     <p>추가로 이미지를 클릭하면 해당 이미지와 관련된 페이지로 전환되는 기능이 필요 / ex - 학사 공지  || 입학 페이지 등등 This call to action card is a great place to showcase some important information or display a clever tagline!</p>
                     <a class="btn btn-primary" href="#!">Call to Action!</a>
                 </div>
@@ -50,7 +50,7 @@
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">학교 일정 || 뉴스</h2>
+                            <h2 class="card-title">공지사항</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
@@ -59,7 +59,7 @@
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">Q & A</h2>
+                            <h2 class="card-title">학사일정</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
@@ -68,7 +68,35 @@
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h2 class="card-title">학사 일정 (달력 && 리스트)</h2>
+                            <h2 class="card-title">뉴스</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Q&A</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">FAQ</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">협력 기업</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
@@ -76,6 +104,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5">
